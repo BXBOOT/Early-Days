@@ -1,0 +1,27 @@
+#container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: blue;
+  }
+  #animate {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background:green;
+  }
+
+  #demo {
+    text-align: center;
+    font-family: Arial;
+    color: crimson;
+    font-size: 100px;
+
+  }
+
+  #feedBack {
+    text-align: center;
+    font-family: Arial;
+    color: crimson;
+    font-size: 100%;
+  }

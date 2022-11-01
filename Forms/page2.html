@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Michael Forms Assignment</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  <form id="feedBack" onsubmit="return validateForm()" action = mailto:test@test.com>
+    <h3>Enter name:</h3>
+    <input id="name" type="text" name="name"/>
+
+    <h3>Enter Email</h3>
+    <input id="email" type="text" name="email"/>
+
+    <h3>How did you like the transition from page 1?</h3>
+    <input id="poll1" type="radio" name="page poll" value="was ok"/>Was Ok <br/>
+    <input id="poll2" type="radio" name="page poll" value="was too slow"/>was too slow<br/>
+    <input id="poll3" type="radio" name="page poll" value="square too small"/>Square too small<br/>
+    <input id="poll4" type="radio" name="page poll" value="shoes are too tight"/>Shoes are too tight<br/>
+    
+<h3>Leave a comment which may or may not be read</h3>
+
+<textarea id="comments" name="comments" rows="6" cols="40"></textarea><br/>
+
+<input type="submit" value="Submit">
+
+
+</form>
+</body>
+</html>
